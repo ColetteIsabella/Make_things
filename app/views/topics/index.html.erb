@@ -1,6 +1,6 @@
 <%= link_to "New Topic", new_topic_path %>
 <ul>
-  <% @topic.each do |topic| %>
+  <% @topics.each do |topic| %>
     <li><%= link_to topic.name, topic %></li>
   <% end %>
 </ul>

@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Crafty::Application.config.secret_token = 'c186b0c5236234433c1ebabeda4f010d0f3d2a7030379ea23ba1df961b3509e0151a92bb99dc1ce70c5aeaccef2319901a8b253d894538446c621073a84fa0c3'
+Crafty::Application.config.secret_token = '62bcc1029c5f82d1020e03b9ae26ae409ea1753358494f0f7f89330933d70bcc3ee5fc28452903e7d41569629b27ffece43c3bae5ac673c95ebe0f9ef6c5a243'

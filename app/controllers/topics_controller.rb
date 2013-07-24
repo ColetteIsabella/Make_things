@@ -4,7 +4,7 @@ class TopicsController < ApplicationController
     @topics = Topic.all
   end
 
-  def nsew
+  def new
     @topic = Topic.new
   end
 
@@ -24,5 +24,12 @@ end
 
   def edit
     @topic = Topic.find(params[:id])
+  end
+
+  def update
+    @topic = Topic.find(params[:id])
+    @topic.update_attributes(params[:topic])
+    flash[:notice] = "Topic has been updated."
+    redirect_to @topic
   end
 end

@@ -1,8 +1,8 @@
 Crafty::Application.routes.draw do
 
-  root :to => "topics#index"
-    resources :topics
-
+root :to => "topics#index"
+  resources :topics do
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
